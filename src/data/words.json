@@ -1,0 +1,43 @@
+{
+  "easy": [
+    ["Apple","Ocean","Forest","Lantern","Bridge","Candle","Mountain","River","Garden","Castle"],
+    ["Piano","Compass","Marble","Feather","Thunder","Crystal","Anchor","Mirror","Falcon","Desert"],
+    ["Velvet","Whisper","Harbor","Prism","Ember","Cobalt","Tide","Mosaic","Zenith","Fable"],
+    ["Basket","Ladder","Pebble","Sunset","Puddle","Crayon","Pillow","Tunnel","Blossom","Shadow"],
+    ["Kettle","Lantern","Pebble","Ribbon","Acorn","Sparrow","Thicket","Cobble","Dagger","Flint"],
+    ["Mango","Pepper","Cactus","Gravel","Sprout","Saddle","Bonfire","Hammer","Mitten","Tundra"],
+    ["Barrel","Noodle","Bottle","Canopy","Donkey","Fossil","Grotto","Helmet","Igloo","Jasmine"],
+    ["Kite","Lemon","Musket","Napkin","Osprey","Parrot","Quiver","Rocket","Salmon","Tablet"],
+    ["Umbrella","Vessel","Walrus","Xylophone","Yonder","Zipper","Acacia","Beacon","Clover","Driftwood"],
+    ["Eagle","Fudge","Goblin","Hatchet","Inlet","Jigsaw","Kennel","Lagoon","Muffin","Nymph"],
+    ["Obelisk","Paddle","Quarry","Rampart","Scythe","Timber","Udder","Vortex","Wicker","Yarrow"],
+    ["Zephyr","Alcove","Bonnet","Citrus","Dapple","Egret","Fallow","Garnet","Hollow","Insect"],
+    ["Jungle","Kayak","Llama","Mortar","Nestle","Oyster","Pumice","Quartz","Russet","Saddle"],
+    ["Tallow","Urchin","Visor","Walnut","Xenon","Yucca","Zither","Almond","Bramble","Cobweb"],
+    ["Damson","Elbow","Fennel","Gibbet","Hairpin","Irony","Jetsam","Kelpie","Larder","Muslin"]
+  ],
+  "medium": [
+    ["Labyrinth","Symposium","Radiance","Covenant","Solstice","Ephemeral","Resonance","Obsidian","Meridian","Paradox"],
+    ["Celestial","Confluence","Alchemy","Sapphire","Veneration","Chronicle","Serenity","Monolith","Catalyst","Reverie"],
+    ["Allegory","Bastion","Cadence","Dominion","Effulgent","Fathom","Grandeur","Harbinger","Intrigue","Jubilee"],
+    ["Kinetic","Liminal","Miasma","Nebulous","Opulent","Paragon","Quorum","Rapture","Sanctum","Tenacity"],
+    ["Umbrage","Vagary","Wistful","Xenolith","Yeoman","Zealotry","Acrimony","Bombast","Conduit","Diffuse"],
+    ["Elusive","Fervent","Galleon","Heresy","Influx","Juncture","Kindred","Latent","Manifold","Nascent"],
+    ["Oblique","Penance","Quandary","Rampant","Sovereign","Tangent","Uncanny","Visceral","Wayward","Exalted"],
+    ["Fissure","Glacier","Heliocentric","Impetus","Jovial","Keenly","Laminar","Mystique","Nomadic","Osmosis"],
+    ["Perilous","Quantum","Rhetoric","Sinuous","Turbulent","Undulate","Verdant","Wanderlust","Xylem","Yawning"],
+    ["Zenith","Acuity","Brevity","Caustic","Duality","Enigma","Ferment","Gravity","Hubris","Iconoclast"],
+    ["Jargon","Kinship","Lexicon","Mutable","Nuance","Ominous","Pivotal","Querulous","Rancor","Solace"]
+  ],
+  "hard": [
+    ["Perspicacious","Mellifluous","Sycophantic","Loquacious","Recondite","Sesquipedalian","Pulchritudinous","Obfuscate","Defenestration","Concatenate"],
+    ["Abstemious","Bellicose","Calumniate","Denouement","Equivocate","Filibuster","Garrulous","Hegemony","Impecunious","Jejune"],
+    ["Kafkaesque","Lachrymose","Malapropism","Nefarious","Obstreperous","Perfidious","Querulous","Recalcitrant","Solipsistic","Tendentious"],
+    ["Truculent","Umbrageous","Vapid","Weltanschauung","Xenophobic","Yore","Zeitgeist","Acrimonious","Byzantine","Captious"],
+    ["Deleterious","Enervate","Fastidious","Grandiloquent","Histrionic","Immutable","Juxtapose","Kinesthesia","Lugubrious","Magnanimous"],
+    ["Nihilistic","Obdurate","Pejorative","Quixotic","Refractory","Sanctimonious","Tautological","Unctuous","Verisimilitude","Winsome"],
+    ["Xenogenesis","Ylem","Zymurgy","Antediluvian","Bootless","Cachinnate","Defervescence","Eldritch","Frangible","Gormandize"],
+    ["Hamartia","Imbroglio","Jocund","Kvetch","Lapidary","Meretricious","Nadir","Objurgate","Palimpsest","Quodlibet"],
+    ["Rescind","Sartorial","Tendentious","Ululation","Vituperate","Wastrel","Xeric","Yeomanry","Zoetrope","Abrogate"]
+  ]
+}

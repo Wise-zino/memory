@@ -4,7 +4,7 @@
     "slug": "MEMORY",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/memory-icon.png",
     "scheme": "memory",
     "userInterfaceStyle": "automatic",
     "ios": {
@@ -12,12 +12,11 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "backgroundColor": "#c2c2c2",
+        "foregroundImage": "./assets/images/memory-icon.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.the_honored_one.MEMORY"
     },
     "web": {
       "output": "static",
@@ -28,10 +27,12 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#c2c2c2",
+          "image": "./assets/images/memory-logo.png",
+          "imageWidth": 200,
           "android": {
-            "image": "./assets/images/splash-icon.png",
-            "imageWidth": 76
+            "image": "./assets/images/memory-logo.png",
+            "imageWidth": 200
           }
         }
       ]
@@ -39,6 +40,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "a8615931-21ee-4b4f-8c2f-8b5abe11c1e7"
+      }
     }
   }
 }

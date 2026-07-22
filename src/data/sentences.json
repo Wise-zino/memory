@@ -1,0 +1,151 @@
+{
+  "easy": [
+    [
+      "The cat sat quietly on the warm windowsill.",
+      "She found an old map hidden behind the painting.",
+      "Every morning he walked through the misty park.",
+      "The lighthouse beam swept across the dark sea.",
+      "Children laughed and chased butterflies in the meadow."
+    ],
+    [
+      "A lone wolf howled at the silver moon.",
+      "The baker pulled fresh loaves from the stone oven.",
+      "Rain tapped a gentle rhythm on the rooftop.",
+      "He discovered a forgotten letter inside the old book.",
+      "The clock tower chimed at exactly noon."
+    ],
+    [
+      "She planted sunflower seeds along the garden wall.",
+      "The fisherman cast his net into the still lake.",
+      "A warm breeze carried the scent of fresh bread.",
+      "He tied a red ribbon around the brown parcel.",
+      "The dog slept peacefully beside the crackling fire."
+    ],
+    [
+      "She poured honey into the steaming cup of tea.",
+      "The children built a tall sandcastle near the waves.",
+      "He found a shiny coin under the park bench.",
+      "The old boat rocked gently in the quiet harbour.",
+      "She read three chapters before the candle burned out."
+    ],
+    [
+      "The market was loud with the calls of vendors.",
+      "He painted the fence white on a sunny afternoon.",
+      "A frog leaped from the lily pad into the pond.",
+      "She hummed a soft song while folding the laundry.",
+      "The postman delivered a heavy parcel to the blue door."
+    ],
+    [
+      "He watched the stars appear one by one at dusk.",
+      "The kitten batted the ball of yarn across the floor.",
+      "She carved her name into the soft bark of the tree.",
+      "The smell of rain filled the open window.",
+      "He packed his bag carefully before the long journey."
+    ],
+    [
+      "The butterfly landed on the tip of her finger.",
+      "She wrote a short poem and left it on the table.",
+      "The train whistled as it rounded the mountain bend.",
+      "He counted twelve steps down to the cellar door.",
+      "The lantern swayed in the cool evening wind."
+    ]
+  ],
+  "medium": [
+    [
+      "The archaeologist carefully brushed dust off the ancient tablet.",
+      "Despite the storm, the captain navigated safely into port.",
+      "She memorized the periodic table before her fifteenth birthday.",
+      "The algorithm processed millions of data points in seconds.",
+      "Hidden beneath the city, an underground river still flows.",
+      "He composed the symphony entirely in his mind before writing a note.",
+      "The treaty was signed under the light of a full moon."
+    ],
+    [
+      "The inventor stayed awake for three nights perfecting the design.",
+      "She translated the manuscript from Latin without a dictionary.",
+      "The expedition reached the summit just before the blizzard hit.",
+      "He rewired the entire circuit board using only basic tools.",
+      "The journalist filed her report from the edge of the conflict zone.",
+      "Every variable in the equation had a physical counterpart.",
+      "The diplomat negotiated the release of the hostages over forty hours."
+    ],
+    [
+      "She identified the rare bird by its distinctive wing pattern.",
+      "The submarine surfaced exactly where the coordinates predicted.",
+      "He decoded the cipher by analysing the frequency of each letter.",
+      "The surgeon performed the operation using only local anaesthetic.",
+      "She reconstructed the shattered vase using historical photographs.",
+      "The probe transmitted data continuously for seventeen years.",
+      "He navigated the dense jungle using only a hand-drawn map."
+    ],
+    [
+      "The forensic team lifted prints from a surface no one expected.",
+      "She cross-referenced three databases to verify the single claim.",
+      "The telescope detected the faint signal from two billion light-years away.",
+      "He memorised every road in the city before his driving test.",
+      "The manuscript had been copied by hand across twelve generations.",
+      "She derived the formula independently of the published research.",
+      "The satellite corrected its own orbit without ground intervention."
+    ],
+    [
+      "He spent a decade learning the dialect of the remote village.",
+      "The bridge was engineered to flex during earthquakes rather than crack.",
+      "She traced the origin of the epidemic to a single water source.",
+      "The robot completed the maze in a record eleven seconds.",
+      "He restored the mural by studying the painter's original sketches.",
+      "The weather system stalled over the mountain range for two weeks.",
+      "She argued the case without a single piece of physical evidence."
+    ],
+    [
+      "The diver recovered the cargo from forty metres below the surface.",
+      "He calculated the trajectory without the use of a computer.",
+      "The city's entire power grid failed due to one faulty relay.",
+      "She isolated the compound after three hundred failed experiments.",
+      "The navigator used only stars and ocean currents to find land.",
+      "He finished the novel on the same day his child was born.",
+      "The eruption was predicted six hours in advance by a single sensor."
+    ]
+  ],
+  "hard": [
+    [
+      "The quantum entanglement experiment produced results that defied classical physics.",
+      "Her dissertation argued that consciousness emerges from recursive self-referential processes.",
+      "The manuscript, written in three languages, remained undeciphered for two centuries.",
+      "Economic sanctions inadvertently accelerated the very industrialisation they sought to prevent.",
+      "The philosopher posited that free will and determinism are not mutually exclusive.",
+      "Neuroplasticity research suggests the adult brain retains far greater adaptability than once believed.",
+      "The fractal geometry of coastlines challenges conventional Euclidean measurement.",
+      "His seminal proof demonstrated that certain mathematical truths are inherently unprovable."
+    ],
+    [
+      "The epigenetic markers indicated environmental stressors had altered gene expression across generations.",
+      "Her theory reconciled the apparent contradiction between locality and non-locality in quantum mechanics.",
+      "The geopolitical ramifications of the resource discovery reshaped three decades of foreign policy.",
+      "He demonstrated that linguistic relativity influences not just vocabulary but conceptual categorisation.",
+      "The collapse of the superposition occurred precisely at the threshold of thermal decoherence.",
+      "She argued that the observer effect is a methodological artefact rather than a physical reality.",
+      "The algorithm achieved convergence only when the loss function incorporated second-order derivatives.",
+      "His ethnographic fieldwork challenged the anthropological consensus on kinship in matrilineal societies."
+    ],
+    [
+      "The constitutional amendment was ratified after overcoming an unprecedented bicameral deadlock.",
+      "She modelled the diffusion of innovations using a modified Bass equation with network effects.",
+      "The palaeontologist's discovery pushed the origin of bilateral symmetry back by forty million years.",
+      "He demonstrated a causal rather than merely correlational relationship using instrumental variable analysis.",
+      "The gravitational wave signature was consistent with a binary neutron star merger at redshift 0.09.",
+      "Her monograph argued that the Enlightenment's emphasis on rationality obscured its own ideological foundations.",
+      "The feedback loop between permafrost thaw and methane release constitutes a critical tipping point.",
+      "He reconstructed the proto-language from comparative phonological shifts across eleven daughter languages."
+    ],
+    [
+      "The court ruled that algorithmic decision-making in sentencing violated due process guarantees.",
+      "She identified a previously unknown phylum of microorganisms in deep-sea hydrothermal sediments.",
+      "The interplay between fiscal austerity and monetary expansion produced an anomalous stagflationary outcome.",
+      "His axiomatisation of the ethical framework drew directly from Kantian deontology and Rawlsian fairness.",
+      "The reanalysis of the dataset revealed a systematic sampling bias introduced during the stratification phase.",
+      "She argued that postcolonial identity formation cannot be understood outside its discursive production.",
+      "The simulation required eighteen months of supercomputing time to model a single millisecond of neural activity.",
+      "His proof exploited a homomorphism between the algebraic structure and a known topological invariant."
+    ]
+  ]
+}

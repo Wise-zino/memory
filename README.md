@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 Memory
+#  Memory
 
 ### Train your mind. Sharpen your edge.
 
@@ -14,8 +14,8 @@
 <br/>
 
 <!-- SCREENSHOT PLACEHOLDER — Home Screen -->
-> 📸 **[Screenshot: Home Screen]**
-> *Replace this line with an actual screenshot: `![Home Screen](./screenshots/home.png)`*
+> <img width="200" height="200" alt="Screenshot_20260929-220039" src="https://github.com/user-attachments/assets/d5dd3a62-aa6c-4e6a-b099-fd6fa83d57a2" />
+
 
 </div>
 
@@ -92,11 +92,17 @@ Save Word Sequence or Sentence Recall sets and come back to them later to test l
 
 | Home | Word Sequence | Sentence Recall |
 |------|--------------|-----------------|
-| <!-- ![Home](./screenshots/home.png) --> 📸 *[Home Screen]* | <!-- ![Word Sequence](./screenshots/word_sequence.png) --> 📸 *[Word Sequence — Memorize Phase]* | <!-- ![Sentence Recall](./screenshots/sentence_recall.png) --> 📸 *[Sentence Recall — Quiz Phase]* |
+| <img width="200" height="200" alt="Screenshot_20260929-220044" src="https://github.com/user-attachments/assets/f4634dfa-d27f-462a-ac45-eb7d5e5019a2" />
+ | <img width="200" height="200" alt="Screenshot_20260930-171030" src="https://github.com/user-attachments/assets/6c0e62d6-92cc-4230-9325-ecef56146ecb" />
+ | <img width="200" height="200" alt="Screenshot_20260930-171211" src="https://github.com/user-attachments/assets/d6d018fd-2c7e-4771-99a0-e1399f6193c6" />
+ |
 
 | Mental Math (MCQ) | Mental Math (Typed) | Saved Quizzes |
 |-------------------|---------------------|---------------|
-| <!-- ![Math MCQ](./screenshots/math_mcq.png) --> 📸 *[Math — Multiple Choice]* | <!-- ![Math Typed](./screenshots/math_typed.png) --> 📸 *[Math — Type Answer]* | <!-- ![Saved](./screenshots/saved.png) --> 📸 *[Saved Quizzes]* |
+| <img width="200" height="200" alt="Screenshot_20260930-171320" src="https://github.com/user-attachments/assets/0989b75d-6ba9-423d-93d6-b1ca9e57420f" />
+ | <img width="200" height="200" alt="Screenshot_20260930-171359" src="https://github.com/user-attachments/assets/d52ca7d9-2268-47bf-b1cd-cc3cb3499fc6" />
+ | <img width="200" height="200" alt="Screenshot_20260930-171545" src="https://github.com/user-attachments/assets/c001892f-6abb-48f3-8da3-45cecca1b26b" />
+ |
 
 
 </div>

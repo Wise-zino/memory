@@ -1,56 +1,341 @@
-# Welcome to your Expo app 👋
+<div align="center">
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# 🧠 Memory
 
-## Get started
+### Train your mind. Sharpen your edge.
 
-1. Install dependencies
+**A mobile memory and cognitive training app built with React Native, featuring procedurally generated math challenges, word sequence recall, and sentence position memory games — all designed to sharpen mental agility through repeated, gamified practice.**
 
-   ```bash
-   npm install
-   ```
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![AsyncStorage](https://img.shields.io/badge/AsyncStorage-Local_Persistence-blue?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20Android-lightgrey?style=for-the-badge)
 
-2. Start the app
+<br/>
 
-   ```bash
-   npx expo start
-   ```
+<!-- SCREENSHOT PLACEHOLDER — Home Screen -->
+> 📸 **[Screenshot: Home Screen]**
+> *Replace this line with an actual screenshot: `![Home Screen](./screenshots/home.png)`*
 
-In the output, you'll find options to open the app in a
+</div>
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📖 Table of Contents
 
-## Get a fresh project
+- [Overview](#-overview)
+- [Features](#-features)
+- [Screenshots](#-screenshots)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [How It Works](#-how-it-works)
+- [Data Architecture](#-data-architecture)
+- [Math Generator](#-math-generator)
+- [Known Limitations](#-known-limitations)
+- [Roadmap](#-roadmap)
+- [License](#-license)
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
+## 🌟 Overview
+
+Memory is a cognitive training app that turns brain exercise into a game. Inspired by a curious mini research on neuroplasticity and spaced repetition, it challenges users across three core cognitive domains:
+
+- **Working memory** — remembering sequences and positions under time pressure
+- **Mental arithmetic** — performing calculations without pen or paper
+- **Long-term retention** — saving and replaying quiz sets days or weeks later
+
+The app is fully offline, stores all data locally on the device, and generates fresh math problems procedurally so no two sessions are ever identical.
+
+---
+
+## ✨ Features
+
+### 🔤 Word Sequence
+Memorize a list of 10 words in order within a time limit. When the clock runs out, the words are shuffled and you must tap them back into their original sequence.
+
+- 3 difficulty levels (Easy · Medium · Hard)
+- Configurable memorization time (30s · 60s · 90s · 120s)
+- Live numbered tap feedback
+- Position-accurate scoring
+- Save any word set to revisit later
+
+### 📖 Sentence Recall
+Study a set of 5–8 sentences and remember each one's position. After the timer, you're asked "Which sentence was in position N?" with multiple-choice options — and sometimes the correct answer isn't listed, requiring a "None of these" response.
+
+- 3 difficulty levels spanning everyday to academic language
+- Multiple-choice format with deliberate "None of these" traps (~40% of questions)
+- Detailed per-question breakdown in results
+- Save sentence sets for spaced repetition practice
+
+### 🧮 Mental Math
+Back-to-back arithmetic challenges generated fresh every session. No repeated questions, no hardcoded bank.
+
+- **12 problem types:** addition, subtraction, multiplication, division, squares, cubes, square roots, cube roots, percentages, multi-step, algebra (solve for x), fractions
+- 2 answer modes: Multiple Choice or Type Your Answer
+- Plausible distractor answers scaled to the magnitude of the correct answer
+- 3 difficulty levels with appropriate number ranges per type
+
+### 💾 Saved Quizzes
+Save Word Sequence or Sentence Recall sets and come back to them later to test long-term retention.
+
+- Persisted locally via AsyncStorage
+- Replay any saved quiz at any time
+- Delete quizzes you no longer need
+- Displays difficulty, type, and date saved
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+
+| Home | Word Sequence | Sentence Recall |
+|------|--------------|-----------------|
+| <!-- ![Home](./screenshots/home.png) --> 📸 *[Home Screen]* | <!-- ![Word Sequence](./screenshots/word_sequence.png) --> 📸 *[Word Sequence — Memorize Phase]* | <!-- ![Sentence Recall](./screenshots/sentence_recall.png) --> 📸 *[Sentence Recall — Quiz Phase]* |
+
+| Mental Math (MCQ) | Mental Math (Typed) | Saved Quizzes |
+|-------------------|---------------------|---------------|
+| <!-- ![Math MCQ](./screenshots/math_mcq.png) --> 📸 *[Math — Multiple Choice]* | <!-- ![Math Typed](./screenshots/math_typed.png) --> 📸 *[Math — Type Answer]* | <!-- ![Saved](./screenshots/saved.png) --> 📸 *[Saved Quizzes]* |
+
+
+</div>
+
+---
+
+## 📁 Project Structure
+
+```
+Memory/
+├── app/
+│   ├── _layout.jsx
+│   └── index.jsx
+│
+├── components/
+│   ├── Badge.jsx
+│   ├── Btn.jsx
+│   ├── CircleTimer.jsx
+│   └── PulseCircle.jsx
+│
+├── constants/
+│   └── theme.js
+│
+├── data/
+│   ├── sentences.json
+│   └── words.json
+│
+├── screens/
+│   ├── HomeScreen.jsx
+│   ├── MentalMathScreen.jsx
+│   ├── SavedQuizzesScreen.jsx
+│   ├── SentenceRecallScreen.jsx
+│   └── WordSequenceScreen.jsx
+│
+├── utils/
+│   ├── helpers.js
+│   └── mathGenerator.js
+│
+├── .gitignore
+└── README.md
+
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+## 🚀 Getting Started
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### Prerequisites
 
-## Learn more
+- Node.js 18+
+- React Native CLI or Expo
+- Android Studio / Xcode (for emulator) or a physical device
 
-To learn more about developing your project with Expo, look at the following resources:
+### Installation
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+# 1. Clone the repository
+git clone https://github.com/Wise-zino/memory.git
+cd memory
 
-## Join the community
+# 2. Install dependencies
+npm install
 
-Join our community of developers creating universal apps.
+# 3. Install AsyncStorage
+npm install @react-native-async-storage/async-storage
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# 4. For iOS — install pods
+cd ios && pod install && cd ..
+```
+
+### Running the App
+
+```bash
+# Android
+npx react-native run-android
+
+# iOS
+npx react-native run-ios
+```
+
+### Registering the Root Component
+
+In your `index.js`:
+
+```js
+import { AppRegistry } from 'react-native';
+import MemoryApp from './MemoryApp';
+
+AppRegistry.registerComponent('NeuroSpark', () => MemoryApp);
+```
+
+---
+
+## 🔍 How It Works
+
+### Navigation
+Memory uses a lightweight state-based navigation system — no external navigation library required. The root `index.jsx` component holds a `screen` string in state and conditionally renders the appropriate screen component.
+
+```
+home → word_sequence
+     → sentence_recall
+     → mental_math
+     → saved_quizzes
+```
+
+### Timer Logic
+Each memorization phase uses a `setInterval` ref that decrements a `timeLeft` state value every second. When it reaches zero, the game automatically advances to the next phase. Users can also skip the timer early.
+
+### Scoring
+- **Word Sequence** — scored by position: a word only counts as correct if it's in the exact right slot
+- **Sentence Recall** — each question is binary: correct sentence selected or not
+- **Mental Math** — one point per correct answer, percentage shown at end
+
+---
+
+## 🗄 Data Architecture
+
+### Words & Sentences — Lazy-loaded JSON
+
+Word lists and sentence sets live in two JSON asset files loaded only when a user taps **Start Challenge**, keeping startup time fast.
+
+```js
+// Loaded once, then cached in module scope
+let _wordData = null;
+
+const getWordLists = () => {
+  if (!_wordData) _wordData = require('./assets/words.json');
+  return _wordData;
+};
+```
+
+**words.json** structure:
+```json
+{
+  "easy":   [["Apple", "Ocean", ...], [...]],
+  "medium": [["Labyrinth", "Symposium", ...], [...]],
+  "hard":   [["Perspicacious", "Mellifluous", ...], [...]]
+}
+```
+
+**sentences.json** structure:
+```json
+{
+  "easy":   [["The cat sat...", "She found..."], [...]],
+  "medium": [["The archaeologist...", "Despite the storm..."], [...]],
+  "hard":   [["The quantum entanglement...", "Her dissertation..."], [...]]
+}
+```
+
+### Saved Quizzes — AsyncStorage
+
+Saved quizzes are serialized as JSON and stored under a single AsyncStorage key. Each entry records the type, difficulty, content, and timestamp.
+
+```js
+{
+  type: 'word_sequence' | 'sentence_recall',
+  difficulty: 'easy' | 'medium' | 'hard',
+  words: [...] | undefined,
+  sentences: [...] | undefined,
+  duration: 60,
+  createdAt: 1720000000000
+}
+```
+
+---
+
+## ➗ Math Generator
+
+`mathGenerator.js` generates fresh arithmetic problems on demand — no hardcoded question bank.
+
+### Supported Problem Types
+
+| Type | Example | Difficulties |
+|------|---------|--------------|
+| Addition | `47 + 83 = ?` | All |
+| Subtraction | `91 − 38 = ?` | All |
+| Multiplication | `13 × 17 = ?` | All |
+| Division | `144 ÷ 12 = ?` | All (always whole answers) |
+| Square | `8² = ?` | All |
+| Cube | `5³ = ?` | Medium · Hard |
+| Square Root | `√169 = ?` | Medium · Hard (perfect squares only) |
+| Cube Root | `∛216 = ?` | Hard (perfect cubes only) |
+| Percentage | `15% of 340 = ?` | Medium · Hard |
+| Multi-step | `(12 × 7) + 9 = ?` | Medium · Hard |
+| Algebra | `4x + 6 = 30, x = ?` | Hard |
+| Fraction of | `3/4 of 120 = ?` | Hard |
+
+### Key Design Decisions
+
+- **Clean answers only** — division and root problems are always set up to produce whole numbers
+- **Plausible distractors** — wrong answers are scaled to the same magnitude as the correct answer so guessing isn't trivial
+- **Deduplication** — `generateMathBatch()` ensures no two identical questions appear in the same session
+
+---
+
+## ⚠️ Known Limitations
+| JSON assets are bundled by Metro at build time | Not truly lazy at the network level | Acceptable for this data size (~80KB total) |
+
+---
+
+## 🗺 Roadmap
+
+- [ ] Daily streak tracking
+- [ ] Per-category performance history and charts
+- [ ] Custom word lists (user-defined)
+- [ ] Timed math sprint mode
+- [ ] Dark / light theme toggle
+- [ ] Sound effects and haptic feedback
+- [ ] Leaderboard (local high scores)
+- [ ] `Platform.OS` aware alert wrapper for web compatibility
+
+---
+
+## 📄 License
+
+```
+MIT License
+
+Copyright (c) 2026 [Wise Zino]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+```
+
+---
+
+<div align="center">
+
+*If this project helped you, consider giving it a ⭐*
+
+</div>

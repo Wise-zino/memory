@@ -37,7 +37,7 @@
 
 ---
 
-## 🌟 Overview
+##  Overview
 
 Memory is a cognitive training app that turns brain exercise into a game. Inspired by a curious mini research on neuroplasticity and spaced repetition, it challenges users across three core cognitive domains:
 
@@ -49,7 +49,7 @@ The app is fully offline, stores all data locally on the device, and generates f
 
 ---
 
-## ✨ Features
+##  Features
 
 ### 🔤 Word Sequence
 Memorize a list of 10 words in order within a time limit. When the clock runs out, the words are shuffled and you must tap them back into their original sequence.
@@ -68,7 +68,7 @@ Study a set of 5–8 sentences and remember each one's position. After the timer
 - Detailed per-question breakdown in results
 - Save sentence sets for spaced repetition practice
 
-### 🧮 Mental Math
+###  Mental Math
 Back-to-back arithmetic challenges generated fresh every session. No repeated questions, no hardcoded bank.
 
 - **12 problem types:** addition, subtraction, multiplication, division, squares, cubes, square roots, cube roots, percentages, multi-step, algebra (solve for x), fractions
@@ -76,7 +76,7 @@ Back-to-back arithmetic challenges generated fresh every session. No repeated qu
 - Plausible distractor answers scaled to the magnitude of the correct answer
 - 3 difficulty levels with appropriate number ranges per type
 
-### 💾 Saved Quizzes
+### Saved Quizzes
 Save Word Sequence or Sentence Recall sets and come back to them later to test long-term retention.
 
 - Persisted locally via AsyncStorage
@@ -109,7 +109,7 @@ Save Word Sequence or Sentence Recall sets and come back to them later to test l
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Memory/
@@ -148,7 +148,7 @@ Memory/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -184,7 +184,7 @@ npx react-native run-ios
 ```
 ---
 
-## 🔍 How It Works
+##  How It Works
 
 ### Navigation
 Memory uses a lightweight state-based navigation system — no external navigation library required. The root `index.jsx` component holds a `screen` string in state and conditionally renders the appropriate screen component.
@@ -257,7 +257,7 @@ Saved quizzes are serialized as JSON and stored under a single AsyncStorage key.
 
 ---
 
-## ➗ Math Generator
+##  Math Generator
 
 `mathGenerator.js` generates fresh arithmetic problems on demand — no hardcoded question bank.
 
@@ -286,12 +286,12 @@ Saved quizzes are serialized as JSON and stored under a single AsyncStorage key.
 
 ---
 
-## ⚠️ Known Limitations
+## Known Limitations
 | JSON assets are bundled by Metro at build time | Not truly lazy at the network level | Acceptable for this data size (~80KB total) |
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 
 - [ ] Daily streak tracking
 - [ ] Per-category performance history and charts
@@ -304,7 +304,7 @@ Saved quizzes are serialized as JSON and stored under a single AsyncStorage key.
 
 ---
 
-## 📄 License
+##  License
 
 ```
 MIT License

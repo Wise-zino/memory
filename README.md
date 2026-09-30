@@ -182,18 +182,6 @@ npx react-native run-android
 # iOS
 npx react-native run-ios
 ```
-
-### Registering the Root Component
-
-In your `index.js`:
-
-```js
-import { AppRegistry } from 'react-native';
-import MemoryApp from './MemoryApp';
-
-AppRegistry.registerComponent('NeuroSpark', () => MemoryApp);
-```
-
 ---
 
 ## 🔍 How It Works
